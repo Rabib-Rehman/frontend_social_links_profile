@@ -5,6 +5,7 @@
 *.sketch
 *.fig
 *.xd
+index-reference.html
 
 # Dependencies
 node_modules/
