@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'My font';
+  src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  /* supported weight range */
+  font-style: normal;
+}
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: var(--grey-900);
+  color: var(--white);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "My font",sans-serif;
+}
+.card{
+  background-color: var(--grey-800);
+  max-width: 350px;
+  width: 90%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.card img{
+  border-radius:50%;
+  width:100px;
+  height: 100px;
+  object-fit:cover;
+}
